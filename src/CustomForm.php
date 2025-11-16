@@ -1,5 +1,5 @@
 <?php
-namespace src;
+namespace FormValidator;
 
 class CustomForm extends Form
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace FormValidator;
 
 abstract class Query extends Model
 {

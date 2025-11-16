@@ -1,9 +1,7 @@
 <?php
 
-namespace tests\Rules;
-
+use FormValidator\Validator\Rules\RequiredRule;
 use PHPUnit\Framework\TestCase;
-use src\Validator\Rules\RequiredRule;
 
 class RequiredRuleTest extends TestCase
 {

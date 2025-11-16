@@ -1,8 +1,8 @@
 <?php
 
-namespace src\Validator\Filters;
+namespace FormValidator\Validator\Filters;
 
-use src\Model;
+use FormValidator\Model;
 
 class AbstractFilter
 {

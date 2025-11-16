@@ -1,23 +1,23 @@
 <?php
-namespace src\Validator;
+namespace FormValidator\Validator;
 
-use src\Model;
-use src\Validator\Filters\Filter;
-use src\Validator\Filters\NormalizePhoneNumber;
-use src\Validator\Filters\StripDisallowedTagsFilter;
-use src\Validator\Filters\StripTagsFilter;
-use src\Validator\Filters\TrimFilter;
-use src\Validator\Rules\ArrayRule;
-use src\Validator\Rules\CustomRule;
-use src\Validator\Rules\DefaultRule;
-use src\Validator\Rules\EmailRule;
-use src\Validator\Rules\InRule;
-use src\Validator\Rules\IntegerRule;
-use src\Validator\Rules\NumericRule;
-use src\Validator\Rules\PhoneNumberRule;
-use src\Validator\Rules\RequiredRule;
-use src\Validator\Rules\Rule;
-use src\Validator\Rules\StringRule;
+use FormValidator\Model;
+use FormValidator\Validator\Filters\Filter;
+use FormValidator\Validator\Filters\NormalizePhoneNumber;
+use FormValidator\Validator\Filters\StripDisallowedTagsFilter;
+use FormValidator\Validator\Filters\StripTagsFilter;
+use FormValidator\Validator\Filters\TrimFilter;
+use FormValidator\Validator\Rules\ArrayRule;
+use FormValidator\Validator\Rules\CustomRule;
+use FormValidator\Validator\Rules\DefaultRule;
+use FormValidator\Validator\Rules\EmailRule;
+use FormValidator\Validator\Rules\InRule;
+use FormValidator\Validator\Rules\IntegerRule;
+use FormValidator\Validator\Rules\NumericRule;
+use FormValidator\Validator\Rules\PhoneNumberRule;
+use FormValidator\Validator\Rules\RequiredRule;
+use FormValidator\Validator\Rules\Rule;
+use FormValidator\Validator\Rules\StringRule;
 
 class ModelRuleFactory
 {

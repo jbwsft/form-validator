@@ -1,9 +1,7 @@
 <?php
 
-namespace tests\Rules;
-
+use FormValidator\Validator\Rules\NumericRule;
 use PHPUnit\Framework\TestCase;
-use src\Validator\Rules\NumericRule;
 
 class NumericRuleTest extends TestCase
 {

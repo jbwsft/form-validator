@@ -1,8 +1,8 @@
 <?php
 
-namespace src;
+namespace FormValidator;
 
-use src\Validator\ModelValidator;
+use FormValidator\Validator\ModelValidator;
 
 abstract class Model
 {

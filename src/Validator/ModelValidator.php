@@ -1,8 +1,8 @@
 <?php
-namespace src\Validator;
+namespace FormValidator\Validator;
 
-use src\Model;
-use src\Validator\Filters\Filter;
+use FormValidator\Model;
+use FormValidator\Validator\Filters\Filter;
 
 class ModelValidator implements Validator
 {

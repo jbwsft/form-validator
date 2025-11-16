@@ -1,9 +1,7 @@
 <?php
 
-namespace tests\Rules;
-
+use FormValidator\Validator\Rules\PhoneNumberRule;
 use PHPUnit\Framework\TestCase;
-use src\Validator\Rules\PhoneNumberRule;
 
 class PhoneNumberRuleTest extends TestCase
 {

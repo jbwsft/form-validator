@@ -1,9 +1,6 @@
 <?php
-
-namespace tests;
-
 use PHPUnit\Framework\TestCase;
-use src\CustomForm;
+use FormValidator\CustomForm;
 
 class FormTest extends TestCase
 {

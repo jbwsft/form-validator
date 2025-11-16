@@ -1,5 +1,5 @@
 <?php
-namespace src\Validator\Filters;
+namespace FormValidator\Validator\Filters;
 
 class NormalizePhoneNumber extends AbstractFilter implements Filter
 {

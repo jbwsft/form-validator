@@ -1,9 +1,7 @@
 <?php
 
-namespace tests\Rules;
-
+use FormValidator\Validator\Rules\EmailRule;
 use PHPUnit\Framework\TestCase;
-use src\Validator\Rules\EmailRule;
 
 class EmailRuleTest extends TestCase
 {

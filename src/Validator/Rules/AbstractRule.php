@@ -1,9 +1,9 @@
 <?php
 
-namespace src\Validator\Rules;
+namespace FormValidator\Validator\Rules;
 
-use src\HttpCode;
-use src\Model;
+use FormValidator\HttpCode;
+use FormValidator\Model;
 
 abstract class AbstractRule
 {

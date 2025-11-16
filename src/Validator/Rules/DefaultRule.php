@@ -1,8 +1,8 @@
 <?php
 
-namespace src\Validator\Rules;
+namespace FormValidator\Validator\Rules;
 
-use src\Model;
+use FormValidator\Model;
 
 class DefaultRule extends AbstractRule implements Rule
 {

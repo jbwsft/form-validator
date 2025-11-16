@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Validator\Rules;
+namespace FormValidator\Validator\Rules;
 
 class InRule extends AbstractRule implements Rule
 {

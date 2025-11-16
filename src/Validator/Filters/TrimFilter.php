@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Validator\Filters;
+namespace FormValidator\Validator\Filters;
 
 class TrimFilter extends AbstractFilter implements Filter
 {

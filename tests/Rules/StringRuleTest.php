@@ -1,10 +1,8 @@
 <?php
 
-namespace tests\Rules;
-
+use FormValidator\Model;
+use FormValidator\Validator\Rules\StringRule;
 use PHPUnit\Framework\TestCase;
-use src\Model;
-use src\Validator\Rules\StringRule;
 
 class StringRuleTest extends TestCase
 {

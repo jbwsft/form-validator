@@ -1,7 +1,7 @@
 <?php
-namespace src\Validator\Rules;
+namespace FormValidator\Validator\Rules;
 
-use src\Model;
+use FormValidator\Model;
 
 class StringRule extends AbstractRule implements Rule
 {

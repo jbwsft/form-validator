@@ -1,9 +1,7 @@
 <?php
 
-namespace tests\Rules;
-
+use FormValidator\Validator\Rules\InRule;
 use PHPUnit\Framework\TestCase;
-use src\Validator\Rules\InRule;
 
 class InRuleTest extends TestCase
 {

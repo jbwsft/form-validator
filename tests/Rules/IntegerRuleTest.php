@@ -1,9 +1,7 @@
 <?php
 
-namespace tests\Rules;
-
+use FormValidator\Validator\Rules\IntegerRule;
 use PHPUnit\Framework\TestCase;
-use src\Validator\Rules\IntegerRule;
 
 class IntegerRuleTest extends TestCase
 {
