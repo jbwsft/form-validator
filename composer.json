@@ -1,8 +1,7 @@
 {
   "name": "jbwsft/form-validator",
   "description": "Form validator for PHP",
-  "type": "project",
-  "version": "1.0.6",
+  "type": "library",
   "require": {
     "php": ">=5.5"
   },
