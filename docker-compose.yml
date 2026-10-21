@@ -3,7 +3,7 @@ version: '3'
 services:
   php:
     container_name: form-validator-php
-    image: grischuksasha/php-fpm
+    image: inernetbs/php74-fpm
     restart: "always"
     volumes:
       - ./:/var/www
